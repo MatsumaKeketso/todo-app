@@ -1,0 +1,29 @@
+.drag-enter {
+  border: 2px dashed #000;
+}
+[data-drop-target] {
+  height: 400px;
+  width: 50%;
+  overflow-y: auto;
+  margin: 25px;
+  background-color: gainsboro;
+  float: left;
+}
+.card {
+  display: block;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cardWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+}
