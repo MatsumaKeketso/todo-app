@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-
 const App = () => {
   const [todos, setTodos] = useState([
     {
@@ -218,7 +217,7 @@ const App = () => {
     targets[i].addEventListener("dragenter", handleDragEnterLeave);
     targets[i].addEventListener("dragleave", handleDragEnterLeave);
   }
-
+  
   return (
     <div className="App">
       <div className="header">
